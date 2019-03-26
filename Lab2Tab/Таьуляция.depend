@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1553540715 source:d:\codeblockes\Таьуляция\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
