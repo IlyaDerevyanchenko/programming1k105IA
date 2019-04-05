@@ -19,9 +19,9 @@ int main()
          ++neg;
              printf("Negative: %.2f\n", arr[i]);
         }
-else{
+         else{
             printf("Positive: %.2f\n", arr[i]);}
-    }
+        }
 
     printf("kol-wo otricatelnyh: %.d\n", neg);
        return 0;
