@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    double arr[20];
+    double neg = 0;
+    int i = 0;
+    while (scanf("%lf", &arr[i++])){};
+    arr [i-1] = NAN;
+    for (i=0; !isnan(arr[i]);++i){
+
+
+      if (arr[i]<0)
+        {
+         neg  += 1;
+             printf("Negative: %.5f\n", arr[i]);
+        }
+else{
+            printf("Positive: %.5f\n", arr[i]);}
+    }
+    printf("kol-wo otricatelnyh: %.5f\n", neg);
+    return 0;
+}
